@@ -34,6 +34,10 @@ kotlin {
     sourceSets {
         nativeMain.dependencies {
             implementation(libs.kotlinxSerializationJson)
+            implementation("com.solanamobile:web3-solana:0.2.5")
+            implementation("com.solanamobile:rpc-core:0.2.7")
+            implementation("io.github.funkatronics:kborsh:0.1.0")
+            implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2")
         }
     }
 }
